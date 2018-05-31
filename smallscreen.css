@@ -1,0 +1,64 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////// MEDIA QUERIES //////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 999px) {
+    .pcSvg {
+        margin-top: 11%;
+       width: 130px;
+    }
+  }
+
+  @media screen and (max-width: 899px) {
+    .pcSvg {
+       width: 100px;
+    }
+  }
+
+@media screen and (max-width: 799px) {
+    .bounce_in_animation {
+        font-size: 20pt;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    .pcSvg {
+        width: 80px;
+    }
+  }
+
+  @media screen and (max-width: 579px) {
+    .bounce_in_animation {
+        font-size: 15pt;
+        }
+    }
+
+    @media screen and (max-width: 499px) {
+        .pcSvg {
+            width: 60px;
+        }
+      }
+
+    @media screen and (max-width: 399px) {
+        .bounce_in_animation {
+            font-size: 10pt;
+        }
+      }
+
+      @media screen and (max-width: 375px) {
+        .pcSvg {
+            width: 50px;
+        }
+      }
+
+      @media screen and (max-width: 299px) {
+        .pcSvg {
+            width: 30px;
+        }
+      }
+
+      @media screen and (max-width: 259px) {
+        .bounce_in_animation {
+            font-size: 8pt;
+        }
+      }
