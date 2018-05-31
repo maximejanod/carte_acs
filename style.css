@@ -30,7 +30,6 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'minecraft', Arial, sans-serif;
-
 }
 
 .backLosange {
@@ -38,6 +37,8 @@ body {
     position: relative;
     width: 80%;
     z-index: 900;
+    -webkit-animation: backLosange 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+            animation: backLosange 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 .pcSvg {

@@ -1,3 +1,26 @@
+
+ @-webkit-keyframes backLosange {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes backLosange {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////// TEXT ////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -15,6 +38,22 @@ html {
   font-size: 30pt;
   text-transform: uppercase;
   letter-spacing: .05em;
+  opacity: 0;
+  -webkit-animation: bounce_in_animation 8s forwards;
+}
+
+@-webkit-keyframes bounce_in_animation {
+  0% {
+      opacity: 0;
+  }
+
+  1% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
